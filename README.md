@@ -39,6 +39,7 @@ for(i in 1:length(files))
   assign(x = filename,value = data)} 
 #Suppose the columns are the same for each file,  
 
+
 #you can bind them together in one dataframe with bind_rows from dplyr: 
 library(dplyr) 
 #one more option is as follows 
